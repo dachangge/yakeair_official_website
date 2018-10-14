@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,UAAU;EACR,UAAU,EAAC,IAAI;EACf,4BAAkB;IAChB,KAAK,EAAE,IAAI;IACX,gCAAG;MACD,KAAK,EAAE,IAAI",
+"sources": ["sy.scss"],
+"names": [],
+"file": "sy.css"
+}

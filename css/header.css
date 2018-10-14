@@ -1,0 +1,145 @@
+@charset "UTF-8";
+/* 头部 */
+.pc-head {
+  width: 100%;
+  height: 65px;
+  background: #000000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 8500; }
+  .pc-head.opacity {
+    background: rgba(0, 0, 0, 0.9); }
+  .pc-head .container {
+    width: 1200px;
+    margin: auto; }
+    .pc-head .container .logo {
+      width: 170px;
+      height: 65px;
+      line-height: 65px;
+      float: left; }
+      .pc-head .container .logo img {
+        width: 170px; }
+    .pc-head .container .pv-nav {
+      float: right; }
+      .pc-head .container .pv-nav > li {
+        height: 65px;
+        display: inline-block;
+        cursor: pointer;
+        padding-left: 33px;
+        padding-right: 33px; }
+        .pc-head .container .pv-nav > li.act span {
+          color: #4bbc42; }
+          .pc-head .container .pv-nav > li.act span:before {
+            width: 100%; }
+        .pc-head .container .pv-nav > li:hover span {
+          color: #4bbc42; }
+          .pc-head .container .pv-nav > li:hover span:before {
+            width: 100%; }
+        .pc-head .container .pv-nav > li .navdown {
+          display: none; }
+        .pc-head .container .pv-nav > li.on .navdown {
+          display: block; }
+        .pc-head .container .pv-nav > li span {
+          position: relative;
+          display: inline-block;
+          height: 100%;
+          line-height: 65px;
+          font-size: 14px;
+          color: #ffffff; }
+          .pc-head .container .pv-nav > li span:before {
+            position: absolute;
+            top: 0px;
+            left: 50%;
+            width: 0;
+            height: 2px;
+            content: '';
+            -webkit-transition: all .3s ease-out 0s;
+            -moz-transition: all .3s ease-out 0s;
+            -ms-transition: all .3s ease-out 0s;
+            -o-transition: all .3s ease-out 0s;
+            transition: all .3s ease-out 0s;
+            -webkit-transform: translateX(-50%);
+            -moz-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            -o-transform: translateX(-50%);
+            transform: translateX(-50%);
+            background: #4bbc42; }
+      .pc-head .container .pv-nav .down1 {
+        width: 100%;
+        height: 110px;
+        background: #ffffff;
+        display: block;
+        text-align: center;
+        position: absolute;
+        top: 65px;
+        left: 0;
+        z-index: 200;
+        overflow: hidden; }
+      .pc-head .container .pv-nav .index-up {
+        z-index: 300; }
+      .pc-head .container .pv-nav .index-up1 {
+        z-index: 280; }
+
+.pc-head .container .pv-nav .down1 li {
+  display: inline-block;
+  padding: 20px 40px;
+  margin-top: -5px; }
+
+.pc-head .container .pv-nav > li:nth-child(2) .down1 li {
+  margin-top: -10px; }
+
+.pc-head .container .pv-nav .down1 li .hover-show {
+  display: none; }
+
+@media screen and (min-width: 1200px) {
+  .pc-head .container .pv-nav .down1 li:hover .hover-show {
+    display: inline; }
+
+  .pc-head .container .pv-nav .down1 li:hover .hover-hide {
+    display: none; }
+
+  .pc-head .container .pv-nav .down1 li.act .hover-show {
+    display: inline; }
+
+  .pc-head .container .pv-nav .down1 li.act .hover-hide {
+    display: none; } }
+@media screen and (max-width: 1199px) {
+  .pc-head .container .pv-nav .down1 li .hover-show {
+    display: inline; }
+
+  .pc-head .container .pv-nav .down1 li .hover-hide {
+    display: none; } }
+.pc-head .container .pv-nav .down1 li p:last-child {
+  position: relative;
+  top: -10px;
+  height: 20px;
+  font-size: 14px;
+  color: #333333; }
+
+.pc-head .container .pv-nav .down1 li:hover p:last-child {
+  color: #4bbc42; }
+
+.pc-head .container .pv-nav .down1 li.act p:last-child {
+  color: #4bbc42; }
+
+@media screen and (max-width: 1200px) {
+  .pc-head .container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px; } }
+@media screen and (max-width: 767px) {
+  .pc-head .container .pv-nav {
+    display: none; } }
+@media screen and (max-width: 1200px) {
+  .pc-head .container .pv-nav > li {
+    padding-left: 20px;
+    padding-right: 20px; } }
+@media screen and (max-width: 990px) {
+  .pc-head .container .pv-nav > li {
+    padding-left: 10px;
+    padding-right: 10px; } }
+.ph-menu-ul {
+  display: none; }
+
+/*# sourceMappingURL=header.css.map */
