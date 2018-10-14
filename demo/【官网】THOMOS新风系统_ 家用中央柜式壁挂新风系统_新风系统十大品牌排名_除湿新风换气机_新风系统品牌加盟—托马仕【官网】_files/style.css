@@ -231,7 +231,7 @@ div{
     transition: all .4s ease-in-out 0s;
 }
 @media screen and (max-width: 767px){
-     .d-openmenu{
+    .pc-head .container .d-openmenu{
         display: block;
     }
 }

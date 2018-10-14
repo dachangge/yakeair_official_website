@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/header.css">
 </head>
 <body>
-<!-- 头部 -->
+<!-- pc头部 -->
 <header class="pc-head">
     <div class="container clearfix">
         <div class="logo">
@@ -310,7 +310,7 @@
         </div>
     </div>
 </header>
-<!-- 手机下拉 -->
+<!-- 手机头部 -->
 <div class="ph-menu-ul">
     <div class="d-xialaph">
         <ul class="d-ul1">
@@ -572,6 +572,13 @@
                 $(this).children(".navdown").stop().slideUp(500);
             }
         });
+        $('.d-openmenu').click(function () {
+            if($(this).hasClass("act")){
+                $(this).removeClass("act");
+            }else{
+                $(this).addClass('act');
+            }
+        })
     })
 
 </script>

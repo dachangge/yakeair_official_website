@@ -2,8 +2,26 @@
   margin-top:53px;
   .swiper-container {
     width: 100%;
-    img{
-      width: 100%;
+    .swiper-slide{
+      img{
+        width: 100%;
+      }
     }
+  }
+}
+@media screen and (min-width: 767px){
+  .swiper-slide img.show-pc{
+    display: block;
+  }
+  .swiper-slide img.show-mobile{
+    display: none;
+  }
+}
+@media screen and (max-width: 767px){
+  .swiper-slide img.show-pc{
+    display: none;
+  }
+  .swiper-slide img.show-mobile{
+    display: block;
   }
 }
