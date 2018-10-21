@@ -1,4 +1,18 @@
 @charset "UTF-8";
+.tc {
+  text-align: center; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both; }
+
 /* 头部 */
 .pc-head {
   width: 100%;
@@ -9,7 +23,7 @@
   left: 0;
   z-index: 8500; }
   .pc-head.opacity {
-    background: rgba(0, 0, 0, 0.9); }
+    background: #212121; }
   .pc-head .container {
     width: 1200px;
     margin: auto;
@@ -20,7 +34,8 @@
       line-height: 65px;
       float: left; }
       .pc-head .container .logo img {
-        width: 170px; }
+        margin-top: 16px;
+        height: 34px; }
     .pc-head .container .pv-nav {
       float: right; }
       .pc-head .container .pv-nav > li {

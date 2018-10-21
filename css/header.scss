@@ -9,7 +9,7 @@
   left: 0;
   z-index: 8500;
   &.opacity{
-    background:rgba(0,0,0,0.9);
+    background:#212121;
   }
   .container{
 
@@ -22,7 +22,8 @@
       line-height: 65px;
       float: left;
       img{
-        width: 170px;
+        margin-top: 16px;
+        height: 34px;
       }
     }
     .pv-nav{

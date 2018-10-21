@@ -1,1 +1,17 @@
 $themeColor: #4bbc42;
+.tc{
+  text-align: center;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.clearfix{
+  &::after{
+    content: '';
+    display: block;
+    clear: both;
+  }
+}
