@@ -35,10 +35,10 @@ section.product-nav{
     }
     h5{
       font-size: 26px;
-      color: #918F91;
+      color: #3E3A39;
     }
     .B1-img{
-      margin-top: 70px;
+      margin-top: 92px;
       img{
         max-width: 100%;
       }
@@ -46,24 +46,24 @@ section.product-nav{
   }
 }
 .BA2-fashion{
-  padding-top: 125px;
   background: #F1F1F3;
 }
 .BAf-txt {
-  padding-top: 30px;
+  padding-top: 70px;
+  color: #383440;
   h1{
     margin-bottom: 45px;
     color: #3E3A39;
-    font-size: 40px;
   }
 }
 
 .BAf-icon{
-  margin: 150px auto 0;
+  margin:10px auto;
   text-align: center;
   .Bicon-box{
     display: inline-block;
-    margin: 0 80px;
+    margin: 0 20px;
+    vertical-align: bottom;
   }
 }
 
@@ -74,7 +74,8 @@ section.product-nav{
 
 .BA-banner{
   position: relative;
-  padding-top: 50px;
+  clear: both;
+
   div.wrap{
     width: 100%;
     box-sizing: border-box;
@@ -87,29 +88,49 @@ section.product-nav{
     -ms-transform: translate(-50%,-50%);
     -moz-transform: translate(-50%,-50%);
     -webkit-transform: translate(-50%,-50%);
+    &::after{
+      display: block;
+      clear: both;
+      content: '';
+    }
     >div{
       &.ba-img{
-        width: calc(100% - 480px);
+        width: calc(100% - 580px);
         img{
           max-width: 100%;
         }
       }
       &.ba-text{
-        width: 480px;
+        width: 580px;
         text-align: left;
         height: 100%;
-        padding-top: 30px;
+      }
+      &.ba-top{
+        margin-top: 30px;
       }
       &.ba-text, &.ba-top{
         h1{
           margin-bottom: 20px;
-          font-size: 40px;
-          color: #3E3A39;
+          //font-size: 40px;
+          //color: #3E3A39;
         }
         p{
-          font-size: 22px;
-          line-height: 42px;
-          color: #918F91;
+          //font-size: 22px;
+          //line-height: 42px;
+          //color: #918F91;
+        }
+        .icon-box{
+          margin-top: 5px;
+          .icon{
+            display: inline-block;
+            vertical-align: bottom;
+            margin: 0 20px;
+            width: 100px;
+            img{
+              width: 100%;
+            }
+
+          }
         }
       }
       img{
@@ -119,6 +140,32 @@ section.product-nav{
   }
 
 }
+
+.BAf-icon{
+  .Bicon-box{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #D6EAD4;
+    padding: 8px;
+    border-radius: 150px;
+
+    .icon{
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+      border-radius: 100px;
+      border: 1px solid transparent;
+      background: #F4FCF5;
+      img{
+        text-align: center;
+      }
+    }
+
+  }
+}
+
+
+
 
 @keyframes move
 {
@@ -142,10 +189,126 @@ section.product-nav{
     opacity: 1;
   }
 }
+
+
+@media screen  and (min-width: 1920px){
+  .f90{
+    font-size: 90px;
+  }
+  .f40{
+    font-size: 40px;
+    line-height: 72px;
+  }
+  .BAf-icon{
+    .Bicon-box{
+      width: 150px;
+      height: 150px;
+    }
+  }
+}
+@media screen  and (max-width: 1919px){
+  .f90{
+    font-size: 60px;
+  }
+  .f40{
+    font-size: 26px;
+    line-height: 48px;
+  }
+  .BAf-icon{
+    .Bicon-box{
+      width: 100px;
+      height: 100px;
+      img{
+        width: 80%;
+      }
+    }
+  }
+  .icon-1{
+    padding-top: 11px;
+  }
+  .icon-2{
+    padding-top: 11px;
+  }
+  .icon-3{
+    padding-top: 4px;
+    img{
+      width: 72% !important;
+    }
+
+  }
+  .text-inner{
+    width: 300px;
+    margin: 100px auto;
+    background: rgba(255,255,255,.3);
+    padding: 20px 30px;
+    h1{
+      font-size: 36px;
+    }
+    p{
+      font-size: 20px;
+      color: #504C4B;
+      line-height: 36px;
+    }
+  }
+  .wuliu{
+    width: 600px;
+    .wuliu_warpar{
+      float: left;
+      width: 50%;
+      padding-left: 15px ;
+      padding-bottom: 10px;
+      box-sizing: border-box;
+      text-align: center;
+      img{
+        width: 100%;
+      }
+      span{
+        font-size: 18px;
+        line-height: 30px;
+        .icon{
+          display: inline-block;
+          vertical-align: bottom;
+          background: #6699FF;
+          border: 1px solid transparent;
+          width: 29px;
+          height: 29px;
+          border-radius: 30px;
+          color: #fff;
+        }
+      }
+
+    }
+  }
+}
+
+
+
+
+
 @media screen and (max-width: 1440px){
   .BA-banner .wrap{
     padding: 0 140px;
   }
 }
-@media screen and (min-width: 767px){
+@media screen and (max-width: 767px){
+  .BA-banner div.wrap{
+    padding: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+  .bah{
+    height: auto;
+    padding: 30px 15px 40px;
+    box-sizing: border-box;
+  }
+  .ba-img,.ba-img img,.ba-text{
+    width: 100% !important;
+    float: none !important;
+    text-align: center !important;
+
+  }
+
 }
+
