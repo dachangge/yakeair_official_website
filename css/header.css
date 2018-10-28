@@ -13,11 +13,14 @@
   display: block;
   clear: both; }
 
+.mt100 {
+  margin-top: 100px; }
+
 /* 头部 */
 .pc-head {
   width: 100%;
   height: 65px;
-  background: #000000;
+  background: #212121;
   position: fixed;
   top: 0;
   left: 0;

@@ -63,9 +63,7 @@ section.product-nav {
   position: relative;
   clear: both; }
   .BA-banner div.wrap {
-    width: 100%;
     box-sizing: border-box;
-    padding: 0 140px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -78,28 +76,43 @@ section.product-nav {
       display: block;
       clear: both;
       content: ''; }
-    .BA-banner div.wrap > div.ba-img {
-      width: calc(100% - 580px); }
-      .BA-banner div.wrap > div.ba-img img {
-        max-width: 100%; }
-    .BA-banner div.wrap > div.ba-text {
-      width: 580px;
-      text-align: left;
-      height: 100%; }
-    .BA-banner div.wrap > div.ba-top {
+    .BA-banner div.wrap div.ba-img {
+      padding: 40px 40px;
+      text-align: center; }
+    .BA-banner div.wrap div.ba-top {
       margin-top: 30px; }
-    .BA-banner div.wrap > div.ba-text h1, .BA-banner div.wrap > div.ba-top h1 {
+    .BA-banner div.wrap div.ba-bottom div.img img {
+      width: 300px; }
+    .BA-banner div.wrap div.ba-bottom ul.time {
+      margin-top: 100px; }
+      .BA-banner div.wrap div.ba-bottom ul.time li {
+        float: left; }
+        .BA-banner div.wrap div.ba-bottom ul.time li:nth-child(odd) {
+          width: 100px;
+          height: 100px;
+          border: 2px double  #aaa;
+          border-radius: 100px;
+          line-height: 100px;
+          text-align: center;
+          font-size: 20px; }
+        .BA-banner div.wrap div.ba-bottom ul.time li:nth-child(even) {
+          border: 2px solid #7D7A7B;
+          width: 100px;
+          position: relative;
+          top: 49px;
+          margin: 0 5px; }
+    .BA-banner div.wrap div.ba-text h1, .BA-banner div.wrap div.ba-top h1 {
       margin-bottom: 20px; }
-    .BA-banner div.wrap > div.ba-text .icon-box, .BA-banner div.wrap > div.ba-top .icon-box {
+    .BA-banner div.wrap div.ba-text .icon-box, .BA-banner div.wrap div.ba-top .icon-box {
       margin-top: 5px; }
-      .BA-banner div.wrap > div.ba-text .icon-box .icon, .BA-banner div.wrap > div.ba-top .icon-box .icon {
+      .BA-banner div.wrap div.ba-text .icon-box .icon, .BA-banner div.wrap div.ba-top .icon-box .icon {
         display: inline-block;
         vertical-align: bottom;
         margin: 0 20px;
         width: 100px; }
-        .BA-banner div.wrap > div.ba-text .icon-box .icon img, .BA-banner div.wrap > div.ba-top .icon-box .icon img {
+        .BA-banner div.wrap div.ba-text .icon-box .icon img, .BA-banner div.wrap div.ba-top .icon-box .icon img {
           width: 100%; }
-    .BA-banner div.wrap > div img {
+    .BA-banner div.wrap div img {
       max-width: 100%; }
 
 .BAf-icon .Bicon-box {
@@ -134,21 +147,24 @@ section.product-nav {
     opacity: 1; } }
 @media screen and (min-width: 1920px) {
   .f90 {
-    font-size: 90px; }
-
-  .f40 {
-    font-size: 40px;
-    line-height: 72px; }
-
-  .BAf-icon .Bicon-box {
-    width: 150px;
-    height: 150px; } }
-@media screen and (max-width: 1919px) {
-  .f90 {
     font-size: 60px; }
 
   .f40 {
-    font-size: 26px;
+    font-size: 36px;
+    line-height: 60px; }
+
+  .BAf-icon .Bicon-box {
+    width: 150px;
+    height: 150px; }
+
+  .ba-text {
+    margin-top: 100px; } }
+@media screen and (max-width: 1919px) {
+  .f90 {
+    font-size: 40px; }
+
+  .f40 {
+    font-size: 20px;
     line-height: 48px; }
 
   .BAf-icon .Bicon-box {
@@ -167,6 +183,17 @@ section.product-nav {
     padding-top: 4px; }
     .icon-3 img {
       width: 72% !important; }
+
+  .icon1-1 {
+    padding-top: 34px; }
+
+  .icon1-2 {
+    padding-top: 15px; }
+    .icon1-2 img {
+      width: 70% !important; }
+
+  .icon2-2 {
+    padding-top: 11px; }
 
   .text-inner {
     width: 300px;
@@ -203,9 +230,6 @@ section.product-nav {
           height: 29px;
           border-radius: 30px;
           color: #fff; } }
-@media screen and (max-width: 1440px) {
-  .BA-banner .wrap {
-    padding: 0 140px; } }
 @media screen and (max-width: 767px) {
   .BA-banner div.wrap {
     padding: 0;
