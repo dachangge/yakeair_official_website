@@ -175,10 +175,11 @@
   padding: 20px 40px;
   margin-top: -5px; }
 
-.pc-head .container .pv-nav > li:nth-child(2) .down1 li {
-  margin-top: -10px; }
+.pc-head .container .pv-nav > li .down1 li {
+  margin-top: -10px;
+  vertical-align: text-bottom; }
 
-.pc-head .container .pv-nav > li:nth-child(2) .down1 li a p:first-child {
+.pc-head .container .pv-nav > li .down1 li a p:first-child {
   height: 52px;
   line-height: 52px; }
 
