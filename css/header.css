@@ -14,7 +14,19 @@
   clear: both; }
 
 .mt100 {
-  margin-top: 100px; }
+  margin-top: 100px !important; }
+
+.mt50 {
+  margin-top: 50px; }
+
+.vc {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%); }
+
+.w100 {
+  width: 100%; }
 
 /* 头部 */
 .pc-head {

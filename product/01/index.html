@@ -16,16 +16,12 @@
     <link rel="stylesheet" href="../../css/header.css">
     <link rel="stylesheet" href="../../css/product.common.css">
     <script src="../../js/wow.min.js"></script>
+    <link rel="stylesheet" href="../../css/footer.css">
+
 </head>
 <body>
 <div id="header"></div>
-<section class="product-nav">
-    <div class="wrap clearfix">
-        <div class="title">
-            中央除湿
-        </div>
-    </div>
-</section>
+
 <section class="BA2-banner bah" style="height:710px;background: url(../../image/B1_01.png) top center no-repeat;">
     <div class="BA2-txt tc ">
         <h1>品质生活 舒适享受</h1>
@@ -36,7 +32,7 @@
     </div>
 </section>
 <section class="BA2-fashion bah" style="background: #fff;">
-    <div class="BAf-txt tc wow fadeInUp mt100" style="visibility: hidden; animation-name: none;">
+    <div class="BAf-txt tc wow fadeInUp " style="visibility: hidden; animation-name: none;">
         <h1 class="f90">
         时尚设计搭配顶级工艺
         </h1>
@@ -46,8 +42,9 @@
         原数字意大利的"小木箱"设计理念，整体机身采用碳黑喷塑工艺，视觉效果<br>
         更好，底部预留大口径检修口，检修更加方便快捷
     </span>
-        </p></div>
-    <div class="BAf-icon">
+        </p>
+    </div>
+    <div class="BAf-icon mt100">
         <div class="Bicon-box">
             <div class="icon icon1-1" >
                 <img
@@ -62,12 +59,13 @@
             </div>
 
         </div>
+    </div>
 
 </section>
 <section class="BA-banner bah " style="background: #F1F1F3;">
     <div class="row">
         <div class="wrap clearfix container ">
-            <div class="col-lg-6 ba-text wow slideInUp mt100">
+            <div class="col-lg-6 ba-text wow slideInUp mt50">
                 <h1  class="title f90">德国原装进口滤网</h1>
                 <p class="f40">
                     滤芯采用超细玻璃纤维纸，高容尘量低
@@ -85,17 +83,18 @@
 <section class="BA-banner bah ">
     <div class="wrap clearfix container">
         <div class="row">
-            <div class="ba-img col-lg-6 wow slideInUp">
+            <div class="ba-img col-lg-4  wow slideInUp">
                 <img class="img-responsive" src="../../image/B1_02.png" alt="">
             </div>
-            <div class="ba-text col-lg-6 wow slideInUp mt100">
-                <h1 class="title f90">智能控制中兴</h1>
+            <div class="ba-text col-lg-6 col-lg-offset-2 wow slideInUp ">
+                <h1 class="title f90">智能控制中心</h1>
                 <p class="f40">24小时不间断监测</p>
                 <p class="f40">优质温湿度传感器，精准检测室内空气质量</p>
-                <p class="f40" style="margin-top: 30px;">WIFI/485 接口 物联享受</p>
+                <p class="f40">WIFI/485 接口 物联享受</p>
                 <p class="f40">手机或平板电脑联网条件下，可远程控制系统</p>
                 <p class="f40">轻松玩转中央除湿系统</p>
             </div>
+
         </div>
 
     </div>
@@ -114,7 +113,7 @@
                     ，不间断地检测室内空气质量，并即使进行除湿进化，确保室内空气的舒适度。
                 </p>
             </div>
-            <div class="ba-bottom wow slideInUp">
+            <div class="ba-bottom wow slideInUp mt100">
                 <img src="../../image/B1_04.png" alt="">
             </div>
         </div>
@@ -149,17 +148,16 @@
     <div class="wrap clearfix container">
         <div class="row">
             <div class="ba-text col-lg-6 wow slideInUp">
-                <h1 class="title f90 tc">日本松下压缩机</h1>
+                <h1 class="title f90 tc mt100">日本松下压缩机</h1>
                 <p class="f40 tc">回转式的进/排气结构设计，噪音更小，真正的超静音直联式传动，保证压缩机的工作效率达到98%以上</p>
             </div>
             <div class="ba-img col-lg-6 wow slideInUp">
                 <img src="../../image/B1_07.png" alt="">
             </div>
-
         </div>
-
     </div>
 </section>
+<div id="footer"></div>
 </body>
 <script type="text/javascript">
     $(function () {
@@ -169,6 +167,7 @@
 <script>
     $(function () {
         $("#header").load("../../component/header.html");
+        $("#footer").load("../../component/footer.html");
 
     })
 </script>

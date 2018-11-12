@@ -1,0 +1,294 @@
+/* 底部 */
+.pc-footer{
+    width: 100%;
+    height:auto;
+    background:#0F0F0F;
+    overflow: hidden;
+}
+.pc-footer > .container{
+    padding-top:50px;
+    padding-bottom: 80px;
+}
+@media screen and (max-width:1200px){
+    .pc-footer > .container{
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+@media screen and (max-width:1200px){
+    .pc-footer > .container{
+        padding-top:25px;
+        padding-bottom: 40px;
+    }
+}
+.pc-footer .row{
+    float: left;
+}
+@media screen and (max-width:990px){
+    .pc-footer .row{
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+        float: none;
+    }
+}
+@media screen and (max-width:767px){
+    .pc-footer .row{
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        float: none;
+    }
+}
+.pc-footer .row p{
+    font-size: 14px;
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+@media screen and (max-width:990px){
+    .pc-footer .row p{
+        font-size: 14px;
+        height: 40px;
+        line-height: 40px;
+        border-bottom: 1px solid #3B3B3B;
+        padding-bottom: 0px;
+        background: url("../images/menu3.png") right center no-repeat;
+        background-size:10px;
+        cursor: pointer;
+    }
+    .pc-footer .row p.act{
+        color: #4bbc42;
+        background: url("../images/menu31.png") right center no-repeat;
+    }
+    .pc-footer .row p:hover{
+        color: #4bbc42;
+    }
+}
+.pc-footer .row ul li{
+    padding-bottom: 20px;
+    font-size: 12px;
+    color: rgba(255,255,255,0.5);
+}
+@media screen and (max-width:990px){
+    .pc-footer .row ul{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #3B3B3B;
+        display: none;
+    }
+    .pc-footer .row ul li{
+        padding-bottom: 0px;
+        height:35px;
+        line-height: 35px;
+        font-size: 12px;
+        color: rgba(255,255,255,0.5);
+    }
+}
+.pc-footer .row ul li:hover{
+    color: #ffffff;
+}
+.pc-footer .row + .row{
+    margin-left: 60px;
+}
+@media screen and (max-width:1200px){
+    .pc-footer .row + .row{
+        margin-left: 40px;
+    }
+}
+@media screen and (max-width:1040px){
+    .pc-footer .row + .row{
+        margin-left: 30px;
+    }
+}
+@media screen and (max-width:990px){
+    .pc-footer .row + .row{
+        margin-left: 0px;
+    }
+}
+.pc-footer .call{
+    float: right;
+}
+@media screen and (max-width:990px){
+    .pc-footer .call{
+        float: none;
+    }
+}
+.pc-footer .call >p:first-child{
+    padding-bottom: 20px;
+    font-size: 14px;
+    color: rgba(255,255,255,0.5);
+    text-align: right;
+}
+.pc-footer .call >p:nth-child(2){
+    font-size: 28px;
+    color: rgba(255,255,255,0.9);
+    font-family: 'Conv_Helvetica';
+    text-align: right;
+}
+@media screen and (max-width:990px){
+    .pc-footer .call >p:first-child{
+        padding-top: 20px;
+        padding-left: 30px;
+        text-align: center;
+    }
+    .pc-footer .call >p:nth-child(2){
+        padding-left: 30px;
+        text-align: center;
+    }
+}
+@media screen and (max-width:767px){
+    .pc-footer .call >p:first-child{
+        padding-left:15px;
+    }
+    .pc-footer .call >p:nth-child(2){
+        font-size: 22px;
+        padding-left: 15px;
+    }
+}
+.pc-footer .call .link{
+    width: 190px;
+    height: auto;
+    margin-top: 40px;
+    cursor: pointer;
+    position: relative;
+}
+@media screen and (max-width:990px){
+    .pc-footer .call .link{
+        width: 100%;
+        margin:25px auto 0;
+    }
+}
+.pc-footer .call .link > p{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding-left:20px;
+    padding-right: 15px;
+    border: 1px solid #3B3B3B;
+    font-size: 12px;
+    color: rgba(255,255,255,0.5);
+    text-align: left;
+}
+@media screen and (max-width:990px){
+    .pc-footer .call .link > p{
+        text-align: center;
+    }
+}
+.pc-footer .call .link > p .click-show,
+.pc-footer .call .link > p .click-hide{
+    float: right;
+    margin-top: 20px;
+    width: 8px;
+}
+.pc-footer .call .link > p .click-show{
+    display: none;
+}
+.pc-footer .call .link > p.act .click-show{
+    display: inline;
+}
+.pc-footer .call .link > p.act .click-hide{
+    display: none;
+}
+.pc-footer .call .link > .xs{
+    width: 100%;
+    height: 80px;
+    border: 1px solid #3B3B3B;
+    border-top:none;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 40px;
+    z-index: 100;
+    background:#0F0F0F;
+}
+.pc-footer .call .link > .xs li{
+    font-size: 12px;
+    /*height: 40px;*/
+    line-height: 40px;
+    padding-left:20px;
+    padding-right: 15px;
+    text-align: left;
+    color: rgba(255,255,255,0.5);
+}
+@media screen and (max-width:990px){
+    .pc-footer .call .link > .xs li{
+        text-align: center;
+    }
+}
+.pc-footer .copy{
+    width: 100%;
+    height: 70px;
+    border-top: 1px solid #1E1E1E;
+}
+@media screen and (max-width:1200px){
+    .pc-footer .copy{
+        padding: 15px;
+        height: auto;
+    }
+    .pc-footer .copy .container{
+        width: 100%;
+    }
+}
+.pc-footer .copy .container p{
+    float: left;
+    height: 70px;
+    line-height: 70px;
+    font-size: 14px;
+    color: rgba(255,255,255,0.3);
+}
+.pc-footer .copy .container p a{
+    color: rgba(255,255,255,0.3);
+}
+@media screen and (min-width:1200px){
+    .pc-footer .copy .container p a:hover{
+        color: rgba(255,255,255,0.6);
+    }
+}
+@media screen and (max-width:1200px){
+    .pc-footer .copy .container p{
+        float: none;
+        text-align: center;
+        height: auto;
+        line-height: 22px;
+    }
+}
+.pc-footer .copy .container p span{
+    font-size: 14px;
+    color: rgba(255,255,255,0.3);
+}
+.pc-footer .copy .container p span:hover{
+    color: #ffffff;
+}
+.pc-footer .copy .container .yinsi{
+    float: right;
+    width: auto;
+    height:15px;
+    margin-top: 29px;
+    font-family: "微软雅黑";
+}
+@media screen and (max-width:1200px){
+    .pc-footer .copy .container .yinsi{
+        float: none;
+        width: 160px;
+        height: auto;
+        text-align: center;
+        margin:20px auto 0;
+    }
+}
+.pc-footer .copy .container .yinsi li{
+    float: left;
+    font-size: 14px;
+    color: rgba(255,255,255,0.3);
+}
+.pc-footer .copy .container .yinsi li:hover{
+    color: #ffffff;
+}
+.pc-footer .copy .container .yinsi a:first-child li{
+    padding-right:20px;
+    border-right: 1px solid #797979;
+    font-family: "微软雅黑";
+}
+.pc-footer .copy .container .yinsi a:last-child li{
+    padding-left:20px;
+}

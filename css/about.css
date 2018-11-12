@@ -1,0 +1,52 @@
+.bah .container {
+  width: 1320px;
+  box-sizing: border-box;
+  margin: 0 auto; }
+.bah .about_yake {
+  padding: 30px 20px 90px; }
+  .bah .about_yake .f60 {
+    font-size: 60px; }
+    .bah .about_yake .f60 span {
+      position: relative;
+      top: 5px; }
+.bah .content {
+  font-size: 20px;
+  line-height: 40px; }
+  .bah .content p {
+    margin: 50px 0; }
+
+.brand {
+  padding: 90px 70px 70px; }
+  .brand .title {
+    text-align: center;
+    margin-bottom: 100px; }
+    .brand .title .f60 {
+      font-size: 60px; }
+    .brand .title .f32 {
+      margin-top: 50px;
+      font-size: 32px; }
+  .brand .icons {
+    float: left;
+    width: 25%;
+    text-align: center; }
+    .brand .icons .icon-box {
+      margin: 0 auto;
+      box-sizing: border-box;
+      width: 160px;
+      height: 160px;
+      border: 1px solid #d5ead3;
+      border-radius: 160px;
+      padding: 9px; }
+      .brand .icons .icon-box .icon {
+        background: #e7efea;
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+        text-align: center;
+        padding-top: 30px; }
+    .brand .icons .title {
+      margin: 0;
+      font-size: 24px;
+      line-height: 50px; }
+
+/*# sourceMappingURL=about.css.map */
