@@ -72,6 +72,10 @@
     font-size: 36px;
     line-height: 60px; } }
 @media screen and (max-width: 1919px) {
+  .f14 {
+    font-size: 20px;
+    line-height: 36px; }
+
   .f30 {
     line-height: 40px;
     font-size: 15px; }
@@ -105,5 +109,88 @@
   .f40 {
     font-size: 20px;
     line-height: 48px; } }
+.w400 {
+  width: 400px; }
+
+.f14 {
+  font-size: 14px;
+  line-height: 24px; }
+
+.content_wrap {
+  margin: 20px auto;
+  overflow: hidden;
+  width: 1200px;
+  position: relative; }
+  .content_wrap .hr {
+    position: absolute;
+    z-index: -1;
+    top: 91px;
+    width: 1120px;
+    height: 2px;
+    background: #7d7a7b; }
+  .content_wrap .box {
+    float: left;
+    width: 320px;
+    box-sizing: border-box;
+    margin-right: 80px;
+    margin-bottom: 50px; }
+    .content_wrap .box .index {
+      width: 70px;
+      height: 70px;
+      border: 2px solid #2dba3a;
+      border-radius: 74px;
+      float: left;
+      margin-top: 60px;
+      background: #fff;
+      font-size: 28px;
+      line-height: 64px; }
+    .content_wrap .box .circle {
+      float: right;
+      box-sizing: border-box;
+      width: 194px;
+      height: 194px;
+      border: 2px solid #2dba3a;
+      border-radius: 194px;
+      z-index: 200;
+      background: #fff;
+      padding-top: 26px; }
+      .content_wrap .box .circle:nth-last-child {
+        padding-top: 38px; }
+
+.step_content {
+  width: 900px;
+  height: 400px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border-top: 1px solid #7d7a7b;
+  border-left: 1px solid #7d7a7b; }
+  .step_content .step {
+    float: left;
+    width: 33.3%;
+    height: 50%;
+    border-bottom: 1px solid #7d7a7b;
+    border-right: 1px solid #7d7a7b;
+    position: relative;
+    padding: 76px 30px 0 88px;
+    text-align: left; }
+    .step_content .step i {
+      position: absolute;
+      top: 28px;
+      left: 28px;
+      color: #2dba3a;
+      font-size: 40px;
+      font-style: normal; }
+
+.certificate {
+  width: 1350px;
+  margin: 0 auto; }
+  .certificate .box {
+    width: 20%;
+    float: left;
+    text-align: center; }
+    .certificate .box .year {
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 30px; }
 
 /*# sourceMappingURL=page.css.map */
