@@ -60,13 +60,16 @@
     width: 1750px; }
 
   .w900 {
-    width: 900px; }
+    width: 1200px; }
 
   .bah {
     height: 780px; }
 
   .f90 {
     font-size: 60px; }
+    .f90 img {
+      height: 60px;
+      vertical-align: text-top; }
 
   .f40 {
     font-size: 36px;
@@ -105,6 +108,9 @@
 
   .f90 {
     font-size: 40px; }
+    .f90 img {
+      height: 40px;
+      vertical-align: text-top; }
 
   .f40 {
     font-size: 20px;
@@ -192,5 +198,12 @@
       font-size: 18px;
       font-weight: bold;
       line-height: 30px; }
+
+.f60 {
+  font-size: 26px; }
+
+.w800 {
+  width: 600px;
+  margin-left: 200px; }
 
 /*# sourceMappingURL=page.css.map */

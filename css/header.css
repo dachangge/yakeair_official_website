@@ -25,6 +25,11 @@
   position: absolute;
   transform: translate(-50%, -50%); }
 
+.vl {
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute; }
+
 .w100 {
   width: 100%; }
 
