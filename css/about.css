@@ -1,14 +1,35 @@
-.bah .container {
+.content {
+  margin: 75px auto;
+  padding-top: 20px;
   width: 1320px;
-  box-sizing: border-box;
-  margin: 0 auto; }
-.bah .about_yake {
-  padding: 30px 20px 90px; }
-  .bah .about_yake .f60 {
-    font-size: 60px; }
-    .bah .about_yake .f60 span {
-      position: relative;
-      top: 5px; }
+  background: #fff; }
+  .content .join-header {
+    width: 100%;
+    padding: 0 60px;
+    border-bottom: 1px solid #e6e6e6; }
+    .content .join-header .header-menu {
+      height: 79px; }
+      .content .join-header .header-menu .header-item {
+        width: 200px;
+        text-align: center;
+        font-size: 20px;
+        color: #333;
+        line-height: 79px;
+        position: relative; }
+  .content .bah {
+    width: 1200px;
+    position: relative;
+    box-sizing: border-box;
+    margin: 0 auto;
+    height: 570px; }
+    .content .bah .about_yake {
+      padding: 30px 20px 90px; }
+      .content .bah .about_yake .f60 {
+        font-size: 60px; }
+        .content .bah .about_yake .f60 span {
+          position: relative;
+          top: 5px; }
+
 .bah .content {
   font-size: 20px;
   line-height: 40px; }
