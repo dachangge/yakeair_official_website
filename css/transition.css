@@ -1,3 +1,38 @@
+.B1_move {
+  display: inline-block;
+  height: 25px;
+  margin: 0 auto;
+  cursor: pointer; }
+  .B1_move:hover > .B1_dot::after {
+    left: 8px; }
+  .B1_move .B1_dot {
+    position: relative;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    border: 1px solid #4bbc42;
+    border-radius: 50%; }
+    .B1_move .B1_dot::after {
+      content: '';
+      position: absolute;
+      left: -8px;
+      top: 50%;
+      width: 24px;
+      height: 7px;
+      background: url(../image/Transition_arrow.png) no-repeat;
+      background-size: 100% 100%;
+      transform: translateY(-50%);
+      -o-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+      transition: all .3s; }
+  .B1_move span {
+    font-size: 14px;
+    color: #39c22e;
+    line-height: 25px; }
+
 @media screen and (max-width: 1919px) {
   .f90 {
     font-size: 40px; }

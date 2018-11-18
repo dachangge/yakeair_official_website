@@ -2,6 +2,9 @@ $themeColor: #4bbc42;
 .tc{
   text-align: center;
 }
+.tl{
+  text-align: left;
+}
 .fl{
   float: left;
 }
@@ -15,11 +18,18 @@ $themeColor: #4bbc42;
     clear: both;
   }
 }
+
 .mt100{
   margin-top: 100px !important;
 }
 .mt50{
   margin-top: 50px;
+}
+.mr96{
+  margin-right: 80px;
+}
+.mb30{
+  margin-bottom: 30px;
 }
 .vc{
   top: 50%;
@@ -27,6 +37,14 @@ $themeColor: #4bbc42;
   position: absolute;
   transform: translate(-50%,-50%);
 }
+
+.vb{
+  left: 50%;
+  transform: translate(-50%,0);
+  position: absolute;
+  bottom: 0;
+}
+
 .vl{
   top: 50%;
   transform: translateY(-50%);
@@ -35,8 +53,20 @@ $themeColor: #4bbc42;
 .w100{
   width: 100%;
 }
+.w50{
+  width: 50%;
+}
+.h100{
+  height: 100%;
+}
+.h50{
+  height: 50%;
+}
 .mt30{
   margin-top: 30px;
+}
+.mr30{
+  margin-right: 30px;
 }
 *{
   font-family: "PingFangSC-Light","sans-serif","Tahoma","Microsoft YaHei";
@@ -48,4 +78,41 @@ $themeColor: #4bbc42;
 .f40{
   font-size: 20px;
   line-height: 36px;
+}
+@media screen  and (min-width: 1920px){
+  .mr96{
+    margin-right: 96px;
+  }
+}
+.page-top-right {
+  position: absolute;
+  //z-index: -1;
+  top: 0;
+  right: 0; }
+
+.page-top-left {
+  position: absolute;
+  //z-index: -1;
+  top: 0;
+  left: 0; }
+
+.page-bottom-left {
+  position: absolute;
+  //z-index: -1;
+  bottom: 0;
+  left: 0; }
+
+.page-bottom-right {
+  position: absolute;
+  //z-index: -1;
+  bottom: 0;
+  right: 0; }
+
+@media screen  and (max-width: 1200px){
+  .page-top-right,.page-top-left,.page-bottom-left,.page-bottom-right{
+    display: none;
+  }
+}
+img{
+  vertical-align: middle;
 }

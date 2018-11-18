@@ -139,8 +139,7 @@
 
 .inputs {
   width: 1120px;
-  margin: 0 auto;
-  overflow: hidden; }
+  margin: 0 auto; }
   .inputs .input {
     width: 500px;
     height: 70px;
@@ -163,6 +162,33 @@
       font-size: 18px;
       border: none;
       outline: none; }
+  .inputs .select {
+    width: 225px;
+    height: 70px;
+    border: 2px solid #DFDEDE;
+    margin: 20px 0;
+    position: relative;
+    padding: 10px 5px; }
+    .inputs .select .select_value {
+      font-size: 20px;
+      line-height: 46px;
+      color: #9E9B9C; }
+    .inputs .select ul {
+      max-height: 250px;
+      overflow: auto;
+      position: absolute;
+      top: 70px;
+      width: 225px;
+      border: 2px solid #DFDEDE;
+      border-bottom: none;
+      left: -2px; }
+      .inputs .select ul li {
+        border-bottom: 2px solid #DFDEDE;
+        background: #fff;
+        line-height: 46px;
+        cursor: pointer; }
+        .inputs .select ul li:hover {
+          background: #aaa; }
 
 .submit_button {
   margin: 30px auto;
@@ -177,5 +203,8 @@
   background: #4EBD46;
   color: #fff;
   cursor: pointer; }
+
+.r180 {
+  transform: rotate(180deg); }
 
 /*# sourceMappingURL=about.css.map */

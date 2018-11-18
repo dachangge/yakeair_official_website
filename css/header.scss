@@ -22,8 +22,8 @@
       line-height: 65px;
       float: left;
       img{
-        margin-top: 16px;
         height: 34px;
+        vertical-align: middle;
       }
     }
     .pv-nav{
@@ -176,15 +176,21 @@
   display: inline-block;
   padding:20px 40px;
   margin-top: -5px;
+  img{
+    height: 48px;
+    margin-bottom: 10px;
+  }
 }
 .pc-head .container .pv-nav >li .down1 li{
   margin-top: -10px;
   vertical-align: text-bottom;
 
+
 }
 .pc-head .container .pv-nav >li .down1 li a p:first-child{
   height: 52px;
   line-height: 52px;
+  margin-bottom: 20px;
 }
 .pc-head .container .pv-nav .down1 li .hover-show{
   display: none;
