@@ -250,12 +250,17 @@ img {
   padding: 20px 40px;
   margin-top: -5px; }
   .pc-head .container .pv-nav .down1 li img {
-    height: 48px;
-    margin-bottom: 10px; }
+    height: 48px; }
+
+.pc-head .container .pv-nav li:nth-child(2) .down1 li img {
+  transform: scale(2) !important; }
 
 .pc-head .container .pv-nav > li .down1 li {
   margin-top: -10px;
   vertical-align: text-bottom; }
+
+.pc-head .container .pv-nav > li .down1 li a {
+  text-decoration: none !important; }
 
 .pc-head .container .pv-nav > li .down1 li a p:first-child {
   height: 52px;
@@ -288,7 +293,8 @@ img {
   top: -10px;
   height: 20px;
   font-size: 14px;
-  color: #333333; }
+  color: #333333;
+  text-decoration: none; }
 
 .pc-head .container .pv-nav .down1 li:hover p:last-child {
   color: #4bbc42; }

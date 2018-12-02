@@ -1,0 +1,53 @@
+.b3-contact{
+    width: 1200px;
+    height: 520px;
+    margin:50px auto 70px;
+    border: 1px solid #E5E5E5;
+}
+.b3-contact li:nth-child(1){
+    border-bottom: 1px solid #E5E5E5;
+}
+.b3-contact li:nth-child(2){
+    border-bottom: 1px solid #E5E5E5;
+    border-left:1px solid #E5E5E5;
+}
+.b3-contact li:nth-child(4){
+    border-left:1px solid #E5E5E5;
+}
+.b3-contact li{
+    width: 50%;
+    height: 50%;
+    float: left;
+    padding-top: 35px;
+}
+.b3-contact li .img{
+    width: 125px;
+    float: left;
+    text-align: right;
+}
+.b3-contact li .right{
+    width: calc(100% - 125px);
+    float: left;
+    padding-left:30px;
+    padding-right: 30px;
+}
+.b3-contact li .right h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+    padding-bottom:30px;
+}
+.b3-contact li .right p{
+    font-size: 14px;
+    color: #333333;
+    line-height: 30px;
+}
+.b3-contact li .right .wx-erweima{
+    float: left;
+    margin-right: 100px;
+    padding-bottom: 15px;
+}
+.b3-contact li .right .wb-erweima{
+    float: left;
+    padding-bottom: 15px;
+}

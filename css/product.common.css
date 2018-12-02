@@ -330,6 +330,8 @@ section.product-nav {
     width: 100%;
     font-size: 18px;
     color: #000; }
+    .chushi_warpar .chushui .img:hover {
+      transform: scale(1.2); }
   .chushi_warpar .chushui:nth-child(1) .img {
     top: 60%;
     left: 20%; }
