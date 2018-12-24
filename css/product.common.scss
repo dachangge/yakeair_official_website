@@ -499,6 +499,22 @@ section.product-nav{
   line-height: 48px;
 }
 
+.tableWarpar{
+  padding: 50px 100px;
+  .paramtable{
+    width: 100%;
+    thead{
+      background: #f5f5f5;
+    }
+    td{
+      padding: 10px;
+      font-size: 16px;
+      line-height: 30px;
+      text-align: center;
+    }
+  }
+}
+
 
 
 
