@@ -143,6 +143,9 @@ ul.time{
 
 @media screen  and (max-width: 1919px){
 
+  .pro-nav {
+    padding: 0 30px;
+  }
 
   .w1500{
     width: 1200px;
@@ -540,4 +543,43 @@ section.product-nav{
 
 
 }
+
+.pro-nav {
+  position: fixed;
+  z-index: 4;
+  width: 100%;
+  height: 60px;
+  background-color: #ffffff;
+  .wrap{
+    width: 1200px;
+    padding: 0 50px;
+    margin: 0 auto;
+  }
+  .title h1 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+  }
+  .pn-con {
+    width: calc(100% - 200px);
+     li {
+      float: left;
+      padding: 0 18px;
+      line-height: 60px;
+       button{
+         width: 75px;
+         height: 28px;
+         border-radius: 6px;
+         background-color: #39c22e;
+         color: #fff;
+         font-size: 12px;
+         line-height: 1;
+         margin: 0;
+         border: 0;
+         outline: none;
+       }
+    }
+  }
+}
+
 

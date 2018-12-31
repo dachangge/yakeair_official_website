@@ -216,35 +216,35 @@
     <h2>我们提供更多服务</h2>
     <ul class="index-service-list">
         <li class="index-service-item">
-            <a href="http://yousouyun.gotoip2.com/page/case/index.html">
+            <a href="../page/case/index.html">
                 <p>专业解决方案</p>
                 <img src="../image/sy_icon01.png" alt="" class="service_icon">
                 <img src="../image/sy_icon01.png" alt="" class="service_icon_active">
             </a>
         </li>
         <li class="index-service-item">
-            <a href="http://yousouyun.gotoip2.com/page/product_select/index.html">
+            <a href="../page/product_select/index.html">
                 <p>远程安装指导</p>
                 <img src="../image/sy_icon02.png" alt="" class="service_icon">
                 <img src="../image/sy_icon02.png" alt="" class="service_icon_active">
             </a>
         </li>
         <li class="index-service-item">
-            <a href="http://yousouyun.gotoip2.com/page/join_us/index.html">
+            <a href="../page/join_us/index.html">
                 <p>经销商伙伴</p>
                 <img src="../image/sy_icon03.png" alt="" class="service_icon">
                 <img src="../image/sy_icon03.png" alt="" class="service_icon_active">
             </a>
         </li>
         <li class="index-service-item">
-            <a href="http://yousouyun.gotoip2.com/page/join_us/index.html">
+            <a href="../page/join_us/index.html">
                 <p>经销商伙伴</p>
                 <img src="../image/sy_icon04.png" alt="" class="service_icon">
                 <img src="../image/sy_icon04.png" alt="" class="service_icon_active">
             </a>
         </li>
         <li class="index-service-item">
-            <a href="http://yousouyun.gotoip2.com/page/customization/index.html" class="open_btn">
+            <a href="../page/customization/index.html" class="open_btn">
                 <p>定制服务</p>
                 <img src="../image/sy_icon05.png" alt="" class="service_icon">
                 <img src="../image/sy_icon05.png" alt="" class="service_icon_active">
@@ -262,7 +262,7 @@
         console.log(window.location.href);
         console.log(window.location.href.split('?')[1].split('=')[1]);
         var art_id = window.location.href.split('?')[1].split('=')[1];
-        $.post('http://yousouyun.gotoip2.com/server/queryArtById.php',{art_id: art_id}).then(function (res) {
+        $.post('/server/queryArtById.php',{art_id: art_id}).then(function (res) {
             res = JSON.parse(res);
             if(res.code === 1){
                 $('.bah').eq(res.msg.art_type-1).removeClass('hidden');
