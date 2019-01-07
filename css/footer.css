@@ -53,13 +53,11 @@
         line-height: 40px;
         border-bottom: 1px solid #3B3B3B;
         padding-bottom: 0px;
-        background: url("../images/menu3.png") right center no-repeat;
         background-size:10px;
         cursor: pointer;
     }
     .pc-footer .row p.act{
         color: #4bbc42;
-        background: url("../images/menu31.png") right center no-repeat;
     }
     .pc-footer .row p:hover{
         color: #4bbc42;
@@ -119,6 +117,11 @@
     font-size: 14px;
     color: rgba(255,255,255,0.5);
     text-align: right;
+}
+.pc-footer .call >p:first-child>span{
+    line-height: 30px;
+    /*color: #fff;*/
+    /*font-size: 16px;*/
 }
 .pc-footer .call >p:nth-child(2){
     font-size: 28px;
