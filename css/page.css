@@ -35,6 +35,16 @@
   right: 0; }
 
 @media screen and (min-width: 1920px) {
+  .f14 {
+    font-size: 20px !important;
+    line-height: 30px !important; }
+
+  .content_wrap {
+    margin: 50px auto !important; }
+
+  .step_content {
+    margin: 50px auto !important; }
+
   .f30 {
     line-height: 60px;
     font-size: 24px; }

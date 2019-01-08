@@ -25,6 +25,8 @@
     height: 570px; }
     .content .bah .about_yake {
       padding: 30px 20px 90px; }
+      .content .bah .about_yake p {
+        line-height: 45px; }
 
 .brand {
   padding: 90px 70px 70px; }
@@ -40,6 +42,9 @@
     float: left;
     width: 25%;
     text-align: center; }
+    .brand .icons .desc {
+      line-height: 28px;
+      font-size: 16px; }
     .brand .icons .icon-box {
       margin: 0 auto;
       box-sizing: border-box;
@@ -183,7 +188,7 @@
       top: 70px;
       width: 225px;
       border: 2px solid #DFDEDE;
-      /*border-radius: 14px;*/
+      border-radius: 14px;
       border-bottom: none;
       left: -2px;
       /*滚动条样式*/ }
